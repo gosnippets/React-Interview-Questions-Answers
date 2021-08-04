@@ -373,6 +373,13 @@
 3. ### What is JSX?
 
     *JSX* is a XML-like syntax extension to ECMAScript (the acronym stands for *JavaScript XML*). Basically it just provides syntactic sugar for the `React.createElement()` function, giving us expressiveness of JavaScript along with HTML like template syntax.
+    
+    * JSX stands for JavaScript XML.
+    * JSX is fairly close to JavaScript especially in its statements and expressions.
+    * JSX gives better performance that JavaScript because JSX uses 'inline expansion'.
+    * You can use React without using JSX. But JSX makes it easy to build React components. It reduces the amount of code required to write.
+    * JSX looks like HTML markup. JSX syntax is simple and concise and it's very easy to visualize the components that are getting built.
+    * JSX code is transformed into JavaScript using a transpiler called ‘Babel’.
 
     In the example below text inside `<h1>` tag is returned as JavaScript function to the render function.
 
